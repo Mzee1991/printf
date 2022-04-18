@@ -1,5 +1,6 @@
 /*this file contains basic helpers needed everywhere*/
 #include <stdio.h>
+#include "main.h"
 
 /**
  * no_conversion - checks if there is a conversion formatter

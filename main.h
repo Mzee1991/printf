@@ -1,5 +1,5 @@
-#ifndef MAIN
-#define MAIN
+#ifndef _MAIN_H_
+#define _MAIN_H_
 #include <stdarg.h>
 /*macro*/
 #define BUF_LENGTH 1024
