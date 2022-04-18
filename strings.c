@@ -59,8 +59,10 @@ int conversion_string(char *s)
 			return (0);
 		}
 		if (_is_digit(*(s + i)) == 0 && *(s + i) == '.')
+		{
 			dot_flag = 1;
 			++i;
+		}
 		i++;
 	}
 	return (1);

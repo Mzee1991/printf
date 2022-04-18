@@ -4,7 +4,7 @@
  * The buffer is created, malloc'ed elsewhere
  */
 #include <unistd.h>
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * _flush - fill the buffer with \0
