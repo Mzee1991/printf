@@ -1,6 +1,6 @@
 .\" Manpage for nuseradd.
 .\" Contact vivek@nixcraft.net.in to correct errors or typos.
-.TH printf 3 "17 March 2021" "1.0" "printf man page"
+.TH printf 3 "18 April 2022" "1.0" "printf man page"
 .SH NAME
 .P
 .B
@@ -8,7 +8,7 @@ _printf
 .SH SYNOPSIS
 .P
 .B #include
-"holberton.h"
+"main.h"
 
 .I
 int
@@ -77,12 +77,12 @@ A '%' is written.  No argument is converted.  The complete conversion specificat
 .SH EXAMPLES
 
 .P
-#include "holberton.h"
+#include "main.h"
 
-_printf("%s", "Holberton");
+_printf("%s", "ALX SCHOOL");
 
 .SH AUTHORS
 .P
-Hedy OUAHES <hedy.ouahes@holbertonschool.com>
+John  MZEE <yohanamariamzee@gmail.com>
 .P
-Adrien MILLOT <adrien.millot@holbertonschool.com>
+Tony BATYA <adrien.millot@holbertonschool.com>
