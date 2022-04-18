@@ -1,5 +1,4 @@
-.\" Manpage for nuseradd.
-.\" Contact vivek@nixcraft.net.in to correct errors or typos.
+.\" Manpage for _printf.
 .TH printf 3 "18 April 2022" "1.0" "printf man page"
 .SH NAME
 .P
@@ -79,10 +78,10 @@ A '%' is written.  No argument is converted.  The complete conversion specificat
 .P
 #include "main.h"
 
-_printf("%s", "ALX SCHOOL");
+_printf("%s", "School");
 
 .SH AUTHORS
 .P
-John  MZEE <yohanamariamzee@gmail.com>
+Batya Tonny <batstonni@gmail.com>
 .P
-Tony BATYA <adrien.millot@holbertonschool.com>
+Mzee John <yohanamariamzee@gmail.com>
