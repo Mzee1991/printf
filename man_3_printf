@@ -1,5 +1,4 @@
 .\" Manpage for _printf.
-.\" Contact vivek@nixcraft.net.in to correct errors or typos.
 .TH printf 3 "18 April 2022" "1.0" "printf man page"
 .SH NAME
 .P
