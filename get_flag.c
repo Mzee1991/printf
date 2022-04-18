@@ -27,11 +27,11 @@ int get_flag(char s, flags_t *f)
 			i = 1;
 			break;
 		case '-':
-			f->minus = 0;
+			f->minus = 1;
 			i = 1;
 			break;
 		case '0':
-			f->zero = 0;
+			f->zero = 1;
 			i = 1;
 			break;
 	}
