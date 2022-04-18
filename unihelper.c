@@ -47,15 +47,15 @@ char *_strncpy(char *dest, const char *src, int n)
 	int i;
 
 	i = 0;
-	while (i < n && *(src + i) != '\0')
+	while (src[i] != '\0' && i < n)
 	{
-		*(dest + i) = *(src + i);
+		dest[i] = src[i];
 		i++;
 	}
-	while (i < n) /*happens only if I am pasting a src shorter than n string*/
+	while (i < n)
 	{
-		printf("UNI here ?, i = %i\n", i);
-		*(dest + i++) = '\0';
+		dest[i] = '\0';
+		i++;
 	}
 	return (dest);
 }
