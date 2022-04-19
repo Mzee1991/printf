@@ -12,7 +12,7 @@ int print_int(va_list l, flags_t *f)
 	int n = va_arg(l, int);
 	int res = count_digit(n);
 
-	if (f->zero == 1 && f->space == 0)
+	if (f->zero == 1 && f->space == 0 && n >= 0)
 		res += _putchar('0');
 	if (f->space == 1 && f->plus == 0 && n >= 0)
 		res += _putchar(' ');
